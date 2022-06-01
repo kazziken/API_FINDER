@@ -1,9 +1,9 @@
-
 import React from "react";
-import Card from "./Card";
+import ApiCard from "./ApiCard";
+
 
 function Container({showApis}) {
-  const renderApis = showApis.map((api) => <Card key = {api.id} api = {api}/>)
+  const renderApis = showApis.map((api) => <ApiCard key = {api.id} api = {api}/>)
   
 
   return (

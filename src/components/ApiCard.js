@@ -8,17 +8,13 @@ function ApiCard({api}) {
     
     return (
         <div>
-            <Card className="bg-dark text-white" style={{ width: '50rem' }}>
-              <Card.Img src={image} alt={image} />
-              <Card.ImgOverlay>
-                <Card.Title>{name}</Card.Title>
-                <Card.Text>
-                  {description}
-                </Card.Text>
-                <Card.Text>{category}</Card.Text>
-                <Card.Link href={link}>{link}</Card.Link>
-              </Card.ImgOverlay>
-            </Card>
+            <li className="card">
+      <img src={image} alt={name} />
+      <h4>{name}</h4>
+      <p>Description: {description}</p>
+      <p>Category: {category}</p>
+      
+    </li>
         </div>
       );
 }
