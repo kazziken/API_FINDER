@@ -1,94 +1,100 @@
 {
-    "mahjong":[
-        {
-            "id": 1,
-            "name": "Pin9",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Pin9.svg"
-        }, 
-        {
-            "id": 2,
-            "name": "Man2",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Man2.svg"
-        }, 
-        {
-            "id": 3,
-            "name": "Sou6",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Sou6.svg"
+    "apis": [
+      {
+        "id": 1,
+        "name": "Metropolitan Museum of Art Met Collection REST API",
+        "link": "https://www.programmableweb.com/api/metropolitan-museum-art-met-collection-rest-api-v10",
+        "image": "./images/aloe.jpg",
+        "category": "Arts and Culture",
+        "description": "An API for ___"
+      },
+      {
+          "id": 2,
+          "name": "Harvard Art Museums API",
+          "link": "https://www.programmableweb.com/api/harvard-art-museums-rest-api",
+          "image": "./images/aloe.jpg",
+          "category": "Arts and Culture",
+          "description": "The Harvard Art Museums API integrates museum's collections into an application. Users gain access to data about Objects, People, Exhibitions, Publications, and Galleries."
         },
         {
-            "id": 4,
-            "name": "Shaa",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Shaa.svg"
-        }, 
+          "id": 3,
+          "name": "Cleveland Museum of Art API",
+          "link": "https://openaccess-api.clevelandart.org/",
+          "image": "./images/aloe.jpg",
+          "category": "Arts and Culture",
+          "description": "The Cleveland Museum of Art provides datasets of information on more than 64,000 artwork records in its Collection for unrestricted commercial and noncommercial use. Additionally, the museum provides image assets for over 37,000 works, which are made available under the same terms. Links to the web, print, and full-sized, uncompressed versions of these images are included in the dataset where applicable."
+        },
         {
-            "id": 5,
-            "name": "Ton",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Ton.svg"
-        }, 
+          "id": 4,
+          "name": "Tennis Odds",
+          "link": "https://rapidapi.com/BettingAPI/api/tennis-odds/details",
+          "image": "./images/aloe.jpg",
+          "category": "Sports",
+          "description": "An API for ___"
+        },
         {
-            "id": 6,
-            "name": "Pei",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Pei.svg"
-        },         
+          "id": 5,
+          "name": "MLB Data",
+          "link": "https://appac.github.io/mlb-data-api-docs/",
+          "image": "./images/aloe.jpg",
+          "category": "Sports",
+          "description": "An API for ___"
+        },
         {
-            "id": 7,
-            "name": "Pin2",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Pin2.svg"
-        }, 
+          "id": 6,
+          "name": "Horse Racing API",
+          "link": "https://rapidapi.com/ortegalex/api/horse-racing/details",
+          "image": "./images/aloe.jpg",
+          "category": "Sports",
+          "description": "An API for ___"
+        },
         {
-            "id": 8,
-            "name": "Man8",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Man8.svg"
-        }, 
+          "id": 7,
+          "name": "Flight Data",
+          "link": "https://travelpayouts.github.io/slate/",
+          "image": "./images/aloe.jpg",
+          "category": "Travel",
+          "description": "An API for ___"
+        },
         {
-            "id": 9,
-            "name": "Pin5",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Pin5-Dora.svg"
-        },         
+          "id": 8,
+          "name": "Gas Prices",
+          "link": "https://www.collectapi.com/api/gasPrice/gas-prices-api",
+          "image": "./images/aloe.jpg",
+          "category": "Travel",
+          "description": "An API for ___"
+        },
         {
-            "id": 10,
-            "name": "Man5",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Man5-Dora.svg"
-        }, 
+          "id": 9,
+          "name": "Hotels",
+          "link": "https://rapidapi.com/apidojo/api/hotels4/details",
+          "image": "",
+          "category": "Travel",
+          "description": "An API for ___"
+        },
         {
-            "id": 11,
-            "name": "Hatsu",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Hatsu.svg"
-        }, 
+          "id": 10,
+          "name": "Bloomberg Market and Financial News",
+          "link": "https://apipheny.io/free-api/#data-apis",
+          "image": "./images/aloe.jpg",
+          "category": "Finance",
+          "description": "An API for ___"
+        },
         {
-            "id": 12,
-            "name": "Sou5",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Sou5-Dora.svg"
-        },         
+          "id": 11,
+          "name": "Yahoo Finance API",
+          "link": "https://rapidapi.com/auth/sign-up?referral=/apidojo/api/yh-finance",
+          "image": "./images/aloe.jpg",
+          "category": "Finance",
+          "description": "An API for ___"
+        },
         {
-            "id": 13,
-            "name": "Nan",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Nan.svg"
-        }, 
-        {
-            "id": 14,
-            "name": "Sou8",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Sou8.svg"
-        }, 
-        {
-            "id": 15,
-            "name": "Pin1",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Pin1.svg"
-        },         
-        {
-            "id": 16,
-            "name": "Pin7",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Pin7.svg"
-        }, 
-        {
-            "id": 17,
-            "name": "Sou7",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Sou7.svg"
-        }, 
-        {
-            "id": 18,
-            "name": "Sou1",
-            "image": "https://raw.githubusercontent.com/FluffyStuff/riichi-mahjong-tiles/9e2eba21ca69d6cd5cdd9a309d5754ac9517c481/Regular/Sou1.svg"
+          "id": 12,
+          "name": "Gold Prices",
+          "link": "https://rapidapi.com/auth/sign-up?referral=/mpeng/api/stock-and-options-trading-data-provider",
+          "image": "./images/aloe.jpg",
+          "category": "Finance",
+          "description": "An API for ___"
         }
     ]
-}
+  }
