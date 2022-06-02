@@ -1,8 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 import {NavLink} from "react-router-dom"
 
-function Header({handleFilter}){
-
+function Header({selectedCategory, cardsToDisplay}){
+    const [selectedCategory, setSelectedCategory] = useState([])
 
 
     return(
@@ -15,16 +15,16 @@ function Header({handleFilter}){
             <NavLink to="/All">All</NavLink>
             </li>
             <li>
-                <button onClick={() => handleFilter("Arts and Culture")}>Arts and Culture</button>
+                <button onClick={() => cardsToDisplay("Arts and Culture")}>Arts and Culture</button>
             </li>
             <li>
-                <button onClick={() => handleFilter("Travel")}>Travel</button>
+                <button onClick={() => cardsToDisplay("Travel")}>Travel</button>
             </li>
             <li>
-                <button onClick={() => handleFilter("Sports")}>Sports</button>
+                <button name onClick={() => cardsToDisplay("Sports")}>Sports</button>
             </li>
             <li>
-                <button onClick={() => handleFilter("Finance")}>Finance</button>
+                <button onClick={() => cardsToDisplay("Finance")}>Finance</button>
             </li>
             <li>
                 <NavLink to="/Form">Submit New Api</NavLink>

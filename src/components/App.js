@@ -9,6 +9,8 @@ import { Switch } from "react-router-dom";
 
 function App(){
    const [showApis, setShowApis] = useState([]);
+   const [selectedCategory, setSelectedCategory] = useState([])
+
  
    useEffect(() => {
        fetch("http://localhost:3001/apis")
@@ -17,15 +19,17 @@ function App(){
 
      }, []);
 
-    function handleFilter(specific){
-        const renderArts = showApis.filter((show)=>(show.category === specific))
-        setShowApis(renderArts)
+
+
+    function cardsToDisplay(specific){
+        const cardsToDisplay = showApis.filter((show) => (show.category === specific))
+        return setSelectedCategory(cardsToDisplay);
     }
   
    return (
         <div className='App'>
             <Header 
-            handleFilter={handleFilter} />
+            cardsToDisplay={cardsToDisplay} selectedCategory={selectedCategory}/>
             <Switch>
                 <Route exact path="/">
                     <Home />
