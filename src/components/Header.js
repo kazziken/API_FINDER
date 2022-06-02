@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import {NavLink} from "react-router-dom"
 
-function Header(){
+function Header({handleFilter}){
+
+
+
     return(
     <nav className="nav">
         <a href="/" className="site-title"> 
@@ -12,16 +15,16 @@ function Header(){
             <NavLink to="/All">All</NavLink>
             </li>
             <li>
-                <NavLink to="/ArtsandCulture">Arts and Culture</NavLink>
+                <button onClick={() => handleFilter("Arts and Culture")}>Arts and Culture</button>
             </li>
             <li>
-                <NavLink to="/Travel">Travel</NavLink>
+                <button onClick={() => handleFilter("Travel")}>Travel</button>
             </li>
             <li>
-                <NavLink to="/Sports">Sports</NavLink>
+                <button onClick={() => handleFilter("Sports")}>Sports</button>
             </li>
             <li>
-                <NavLink to="/Finance">Finance</NavLink>
+                <button onClick={() => handleFilter("Finance")}>Finance</button>
             </li>
             <li>
                 <NavLink to="/Form">Submit New Api</NavLink>

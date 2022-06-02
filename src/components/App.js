@@ -9,8 +9,6 @@ import { Switch } from "react-router-dom";
 
 function App(){
    const [showApis, setShowApis] = useState([]);
-
-   console.log('Kenneth is a poop')
  
    useEffect(() => {
        fetch("http://localhost:3001/apis")
@@ -19,11 +17,15 @@ function App(){
 
      }, []);
 
-
+    function handleFilter(specific){
+        const renderArts = showApis.filter((show)=>(show.category === specific))
+        setShowApis(renderArts)
+    }
   
    return (
         <div className='App'>
-            <Header />
+            <Header 
+            handleFilter={handleFilter} />
             <Switch>
                 <Route exact path="/">
                     <Home />

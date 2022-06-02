@@ -5,16 +5,13 @@ function ApiCard({api}) {
     const {name,link,category,image,description} = api
     
     //create a ratings button using state?
-
-    function handleClick(){
-      console.log('Robert was here')
-    }
     
     return (
         <div>
-            <li className="card" onClick={handleClick}>
+            <li className="card">
               <img src={image} alt={name} />
               <h4>{name}</h4>
+              <a href={link}>{link}</a>
               <p>Description: {description}</p>
               <p>Category: {category}</p>
           </li>
