@@ -36,7 +36,7 @@
       "id": 5,
       "name": "MLB Data",
       "link": "https://appac.github.io/mlb-data-api-docs/",
-      "image": "https://baseballmomstuff.com/wp-content/uploads/2017/10/48a410559af59edb7a1d61c5672e70537baee630.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfEzNVTSd-OIb5_Xc_5mifK3hHC9wP3c7QYQ&usqp=CAU",
       "category": "Sports",
       "description": "An API for ___"
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "name": "Horse Racing API",
       "link": "https://rapidapi.com/ortegalex/api/horse-racing/details",
-      "image": "https://i2.wp.com/ihearthorses.com/wp-content/uploads/2017/11/Canva-Sad-horse-2-1024x683.jpg",
+      "image": "https://d16kd6gzalkogb.cloudfront.net/magazine_images/Eugene-Delacroix-Horse-Frightened-by-Lightning-1825-29.jpg",
       "category": "Sports",
       "description": "An API for ___"
     },
@@ -60,7 +60,7 @@
       "id": 8,
       "name": "Gas Prices",
       "link": "https://www.collectapi.com/api/gasPrice/gas-prices-api",
-      "image": "http://4.bp.blogspot.com/_c2eHHmBm_pY/S0IPJA2P2DI/AAAAAAAANnU/THsStu7UudE/s640/adam_sandler_gas_station_cadillac_platinum_brentwood.jpg",
+      "image": "https://i.etsystatic.com/22943821/r/il/fd1879/3536980582/il_1588xN.3536980582_1ij9.jpg",
       "category": "Travel",
       "description": "An API for ___"
     },
@@ -84,7 +84,7 @@
       "id": 11,
       "name": "Yahoo Finance API",
       "link": "https://rapidapi.com/auth/sign-up?referral=/apidojo/api/yh-finance",
-      "image": "https://cdn-cms.beams.co.jp/cdn/cms/blog/56963/body_ljpQXL.jpg",
+      "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2018-07/24/full/1532378034-8581.jpg",
       "category": "Finance",
       "description": "An API for ___"
     },

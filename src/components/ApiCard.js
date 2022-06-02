@@ -11,7 +11,7 @@ function ApiCard({api}) {
             <li className="card">
               <img src={image} alt={name} />
               <h4>{name}</h4>
-              <a href={link}>{link}</a>
+              <a href={link}>link</a>
               <p>Description: {description}</p>
               <p>Category: {category}</p>
           </li>
