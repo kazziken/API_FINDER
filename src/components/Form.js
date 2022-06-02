@@ -17,7 +17,7 @@ function Form({onAddApi}) {
       category,
       description,
     }
-    fetch("http://localhost:3000/apis",{
+    fetch("http://localhost:3001/apis",{
       method: "POST",
       headers: {
         "Content-Type": "application/json"

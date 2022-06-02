@@ -1,100 +1,100 @@
 {
-    "apis": [
-      {
-        "id": 1,
-        "name": "Metropolitan Museum of Art Met Collection REST API",
-        "link": "https://www.programmableweb.com/api/metropolitan-museum-art-met-collection-rest-api-v10",
-        "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fwp-content%2Fblogs.dir%2F6%2Ffiles%2F2019%2F05%2Fthe-met-museum-costume-institute-camp-capsule-off-white-maison-margiela-marc-jacobs-release-5.jpg?q=75&w=800&cbr=1&fit=max",
-        "category": "Arts and Culture",
-        "description": "An API for ___"
-      },
-      {
-          "id": 2,
-          "name": "Harvard Art Museums API",
-          "link": "https://www.programmableweb.com/api/harvard-art-museums-rest-api",
-          "image": "https://static01.nyt.com/images/2016/12/11/fashion/11FUTURETENSE/11FUTURETENSE-videoSixteenByNineJumbo1600.jpg",
-          "category": "Arts and Culture",
-          "description": "The Harvard Art Museums API integrates museum's collections into an application. Users gain access to data about Objects, People, Exhibitions, Publications, and Galleries."
-        },
-        {
-          "id": 3,
-          "name": "Cleveland Museum of Art API",
-          "link": "https://openaccess-api.clevelandart.org/",
-          "image": "https://cdn.shopify.com/s/files/1/2524/0922/files/TheClevelandMuseumofArt_4bars_2925white_cmyk.jpg?v=1602096843",
-          "category": "Arts and Culture",
-          "description": "The Cleveland Museum of Art provides datasets of information on more than 64,000 artwork records in its Collection for unrestricted commercial and noncommercial use. Additionally, the museum provides image assets for over 37,000 works, which are made available under the same terms. Links to the web, print, and full-sized, uncompressed versions of these images are included in the dataset where applicable."
-        },
-        {
-          "id": 4,
-          "name": "Tennis Odds",
-          "link": "https://rapidapi.com/BettingAPI/api/tennis-odds/details",
-          "image": "https://i.insider.com/60cbb2ae23393a00188e3ebc?width=750&format=jpeg&auto=webp",
-          "category": "Sports",
-          "description": "An API for ___"
-        },
-        {
-          "id": 5,
-          "name": "MLB Data",
-          "link": "https://appac.github.io/mlb-data-api-docs/",
-          "image": "https://baseballmomstuff.com/wp-content/uploads/2017/10/48a410559af59edb7a1d61c5672e70537baee630.jpg",
-          "category": "Sports",
-          "description": "An API for ___"
-        },
-        {
-          "id": 6,
-          "name": "Horse Racing API",
-          "link": "https://rapidapi.com/ortegalex/api/horse-racing/details",
-          "image": "https://i2.wp.com/ihearthorses.com/wp-content/uploads/2017/11/Canva-Sad-horse-2-1024x683.jpg",
-          "category": "Sports",
-          "description": "An API for ___"
-        },
-        {
-          "id": 7,
-          "name": "Flight Data",
-          "link": "https://travelpayouts.github.io/slate/",
-          "image": "https://i2.wp.com/eapld.org/wp-content/uploads/2020/05/d9954d408cadf988ebe250cd8b6e89d1.jpg?fit=1200%2C675&ssl=1",
-          "category": "Travel",
-          "description": "An API for ___"
-        },
-        {
-          "id": 8,
-          "name": "Gas Prices",
-          "link": "https://www.collectapi.com/api/gasPrice/gas-prices-api",
-          "image": "http://4.bp.blogspot.com/_c2eHHmBm_pY/S0IPJA2P2DI/AAAAAAAANnU/THsStu7UudE/s640/adam_sandler_gas_station_cadillac_platinum_brentwood.jpg",
-          "category": "Travel",
-          "description": "An API for ___"
-        },
-        {
-          "id": 9,
-          "name": "Hotels",
-          "link": "https://rapidapi.com/apidojo/api/hotels4/details",
-          "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2018%2F10%2Fvacancy-hotel-exterior-still-SCARYHOTELS1016.jpg&q=60",
-          "category": "Travel",
-          "description": "An API for ___"
-        },
-        {
-          "id": 10,
-          "name": "Bloomberg Market and Financial News",
-          "link": "https://apipheny.io/free-api/#data-apis",
-          "image": "https://nypost.com/wp-content/uploads/sites/2/2020/01/bloomberg-ice-cream-70.jpg?quality=75&strip=all",
-          "category": "Finance",
-          "description": "An API for ___"
-        },
-        {
-          "id": 11,
-          "name": "Yahoo Finance API",
-          "link": "https://rapidapi.com/auth/sign-up?referral=/apidojo/api/yh-finance",
-          "image": "https://cdn-cms.beams.co.jp/cdn/cms/blog/56963/body_ljpQXL.jpg",
-          "category": "Finance",
-          "description": "An API for ___"
-        },
-        {
-          "id": 12,
-          "name": "Gold Prices",
-          "link": "https://rapidapi.com/auth/sign-up?referral=/mpeng/api/stock-and-options-trading-data-provider",
-          "image": "https://media.npr.org/assets/img/2020/07/27/ap_17297646616057_wide-549f4790ca59c1acc6767e34c342b468cc3a5e6e.jpg",
-          "category": "Finance",
-          "description": "An API for ___"
-        }
-    ]
-  }
+  "apis": [
+    {
+      "id": 1,
+      "name": "Metropolitan Museum of Art Met Collection REST API",
+      "link": "https://www.programmableweb.com/api/metropolitan-museum-art-met-collection-rest-api-v10",
+      "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fwp-content%2Fblogs.dir%2F6%2Ffiles%2F2019%2F05%2Fthe-met-museum-costume-institute-camp-capsule-off-white-maison-margiela-marc-jacobs-release-5.jpg?q=75&w=800&cbr=1&fit=max",
+      "category": "Arts and Culture",
+      "description": "An API for ___"
+    },
+    {
+      "id": 2,
+      "name": "Harvard Art Museums API",
+      "link": "https://www.programmableweb.com/api/harvard-art-museums-rest-api",
+      "image": "https://static01.nyt.com/images/2016/12/11/fashion/11FUTURETENSE/11FUTURETENSE-videoSixteenByNineJumbo1600.jpg",
+      "category": "Arts and Culture",
+      "description": "The Harvard Art Museums API integrates museum's collections into an application. Users gain access to data about Objects, People, Exhibitions, Publications, and Galleries."
+    },
+    {
+      "id": 3,
+      "name": "Cleveland Museum of Art API",
+      "link": "https://openaccess-api.clevelandart.org/",
+      "image": "https://cdn.shopify.com/s/files/1/2524/0922/files/TheClevelandMuseumofArt_4bars_2925white_cmyk.jpg?v=1602096843",
+      "category": "Arts and Culture",
+      "description": "The Cleveland Museum of Art provides datasets of information on more than 64,000 artwork records in its Collection for unrestricted commercial and noncommercial use. Additionally, the museum provides image assets for over 37,000 works, which are made available under the same terms. Links to the web, print, and full-sized, uncompressed versions of these images are included in the dataset where applicable."
+    },
+    {
+      "id": 4,
+      "name": "Tennis Odds",
+      "link": "https://rapidapi.com/BettingAPI/api/tennis-odds/details",
+      "image": "https://i.insider.com/60cbb2ae23393a00188e3ebc?width=750&format=jpeg&auto=webp",
+      "category": "Sports",
+      "description": "An API for ___"
+    },
+    {
+      "id": 5,
+      "name": "MLB Data",
+      "link": "https://appac.github.io/mlb-data-api-docs/",
+      "image": "https://baseballmomstuff.com/wp-content/uploads/2017/10/48a410559af59edb7a1d61c5672e70537baee630.jpg",
+      "category": "Sports",
+      "description": "An API for ___"
+    },
+    {
+      "id": 6,
+      "name": "Horse Racing API",
+      "link": "https://rapidapi.com/ortegalex/api/horse-racing/details",
+      "image": "https://i2.wp.com/ihearthorses.com/wp-content/uploads/2017/11/Canva-Sad-horse-2-1024x683.jpg",
+      "category": "Sports",
+      "description": "An API for ___"
+    },
+    {
+      "id": 7,
+      "name": "Flight Data",
+      "link": "https://travelpayouts.github.io/slate/",
+      "image": "https://i2.wp.com/eapld.org/wp-content/uploads/2020/05/d9954d408cadf988ebe250cd8b6e89d1.jpg?fit=1200%2C675&ssl=1",
+      "category": "Travel",
+      "description": "An API for ___"
+    },
+    {
+      "id": 8,
+      "name": "Gas Prices",
+      "link": "https://www.collectapi.com/api/gasPrice/gas-prices-api",
+      "image": "http://4.bp.blogspot.com/_c2eHHmBm_pY/S0IPJA2P2DI/AAAAAAAANnU/THsStu7UudE/s640/adam_sandler_gas_station_cadillac_platinum_brentwood.jpg",
+      "category": "Travel",
+      "description": "An API for ___"
+    },
+    {
+      "id": 9,
+      "name": "Hotels",
+      "link": "https://rapidapi.com/apidojo/api/hotels4/details",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2018%2F10%2Fvacancy-hotel-exterior-still-SCARYHOTELS1016.jpg&q=60",
+      "category": "Travel",
+      "description": "An API for ___"
+    },
+    {
+      "id": 10,
+      "name": "Bloomberg Market and Financial News",
+      "link": "https://apipheny.io/free-api/#data-apis",
+      "image": "https://nypost.com/wp-content/uploads/sites/2/2020/01/bloomberg-ice-cream-70.jpg?quality=75&strip=all",
+      "category": "Finance",
+      "description": "An API for ___"
+    },
+    {
+      "id": 11,
+      "name": "Yahoo Finance API",
+      "link": "https://rapidapi.com/auth/sign-up?referral=/apidojo/api/yh-finance",
+      "image": "https://cdn-cms.beams.co.jp/cdn/cms/blog/56963/body_ljpQXL.jpg",
+      "category": "Finance",
+      "description": "An API for ___"
+    },
+    {
+      "id": 12,
+      "name": "Gold Prices",
+      "link": "https://rapidapi.com/auth/sign-up?referral=/mpeng/api/stock-and-options-trading-data-provider",
+      "image": "https://media.npr.org/assets/img/2020/07/27/ap_17297646616057_wide-549f4790ca59c1acc6767e34c342b468cc3a5e6e.jpg",
+      "category": "Finance",
+      "description": "An API for ___"
+    }
+  ]
+}
