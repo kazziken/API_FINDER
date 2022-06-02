@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom"
 
 function Header(){
     return(
@@ -8,16 +9,22 @@ function Header(){
         </a>
         <ul>
             <li>
-                <a href="/ArtsandCulture">Arts and Culture</a>
+            <NavLink to="/All">All</NavLink>
             </li>
             <li>
-                <a href="/Travel">Travel</a>
+                <NavLink to="/ArtsandCulture">Arts and Culture</NavLink>
             </li>
             <li>
-                <a href="/Sports">Sports</a>
+                <NavLink to="/Travel">Travel</NavLink>
             </li>
             <li>
-                <a href="/Finance">Finance</a>
+                <NavLink to="/Sports">Sports</NavLink>
+            </li>
+            <li>
+                <NavLink to="/Finance">Finance</NavLink>
+            </li>
+            <li>
+                <NavLink to="/Form">Submit New Api</NavLink>
             </li>
         </ul>
     </nav>

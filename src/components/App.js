@@ -2,7 +2,8 @@ import React, {useState, useEffect} from "react";
 import Container from "./Container"; 
 import Form from "./Form";
 import Header from "./Header";
-import { Route, BrowserRouter } from "react-router-dom"
+import {Route} from "react-router-dom";
+import { Switch } from "react-router-dom";
 
 
 function App(){
@@ -20,17 +21,17 @@ function App(){
 
   
    return (
-    <div className='App'>
-        <BrowserRouter>
-            <Route path="/" element={<Header/>}/>
-            <Route path="/" element={<Container/>}/>
-            <Route path="/form" element={<Form/>}/>
-        </BrowserRouter>
+        <div className='App'>
             <Header />
-            <br></br>
-            <br></br>
-            <Container showApis={showApis}/>
-            <Form />
+
+            <Switch>
+                <Route exact path="/All" >
+                    <Container showApis={showApis}/>
+                </Route>
+                <Route exact path="/form"> 
+                    <Form/>
+                </Route>
+            </Switch> 
         
        </div>
    )
