@@ -6,7 +6,7 @@
       "link": "https://www.programmableweb.com/api/metropolitan-museum-art-met-collection-rest-api-v10",
       "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fwp-content%2Fblogs.dir%2F6%2Ffiles%2F2019%2F05%2Fthe-met-museum-costume-institute-camp-capsule-off-white-maison-margiela-marc-jacobs-release-5.jpg?q=75&w=800&cbr=1&fit=max",
       "category": "Arts and Culture",
-      "description": "An API for ___"
+      "description": "The Metropolitan Museum of Art Met Collection API is the Met’s Open Access datasets that are available through a RESTful web service in JSON format. The API provides access to all of the Met’s Open Access data and to corresponding high resolution images. "
     },
     {
       "id": 2,
@@ -30,7 +30,7 @@
       "link": "https://rapidapi.com/BettingAPI/api/tennis-odds/details",
       "image": "https://i.insider.com/60cbb2ae23393a00188e3ebc?width=750&format=jpeg&auto=webp",
       "category": "Sports",
-      "description": "An API for ___"
+      "description": "Provides users with pre match odds for all professional men's and women's tournaments. Odds are updated every 3 minutes and displayed in decimal, fractional and American format."
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "link": "https://appac.github.io/mlb-data-api-docs/",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfEzNVTSd-OIb5_Xc_5mifK3hHC9wP3c7QYQ&usqp=CAU",
       "category": "Sports",
-      "description": "An API for ___"
+      "description": "The MLB Data API provides users with a full suite of data pertaining to professional baseball, including key information on players, teams, and games."
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "link": "https://rapidapi.com/ortegalex/api/horse-racing/details",
       "image": "https://d16kd6gzalkogb.cloudfront.net/magazine_images/Eugene-Delacroix-Horse-Frightened-by-Lightning-1825-29.jpg",
       "category": "Sports",
-      "description": "An API for ___"
+      "description": "The Horse Racing API provides users with real time races information, including racecard, result & race detail."
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "link": "https://travelpayouts.github.io/slate/",
       "image": "https://i2.wp.com/eapld.org/wp-content/uploads/2020/05/d9954d408cadf988ebe250cd8b6e89d1.jpg?fit=1200%2C675&ssl=1",
       "category": "Travel",
-      "description": "An API for ___"
+      "description": "An API for tracking flght booking information"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "link": "https://www.collectapi.com/api/gasPrice/gas-prices-api",
       "image": "https://i.etsystatic.com/22943821/r/il/fd1879/3536980582/il_1588xN.3536980582_1ij9.jpg",
       "category": "Travel",
-      "description": "An API for ___"
+      "description": "An API that makes you sad"
     },
     {
       "id": 9,
@@ -70,15 +70,15 @@
       "link": "https://rapidapi.com/apidojo/api/hotels4/details",
       "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2018%2F10%2Fvacancy-hotel-exterior-still-SCARYHOTELS1016.jpg&q=60",
       "category": "Travel",
-      "description": "An API for ___"
+      "description": "An API tracking hotel availability and pricing"
     },
     {
       "id": 10,
       "name": "Bloomberg Market and Financial News",
-      "link": "https://apipheny.io/free-api/#data-apis",
+      "link": "https://www.bloomberg.com/professional/product/server-api/",
       "image": "https://nypost.com/wp-content/uploads/sites/2/2020/01/bloomberg-ice-cream-70.jpg?quality=75&strip=all",
       "category": "Finance",
-      "description": "An API for ___"
+      "description": "Bloomberg Server API (SAPI) delivers a powerful complement to the Bloomberg Terminal. SAPI allows you to consume Bloomberg’s unique real-time market, historical, and key reference data, as well as calculation engine capabilities when using proprietary and third-party applications."
     },
     {
       "id": 11,
@@ -86,7 +86,7 @@
       "link": "https://rapidapi.com/auth/sign-up?referral=/apidojo/api/yh-finance",
       "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2018-07/24/full/1532378034-8581.jpg",
       "category": "Finance",
-      "description": "An API for ___"
+      "description": "Yahoo! Finance is a service from Yahoo! that provides financial information. It is the top financial news and research website in the United States."
     },
     {
       "id": 12,
@@ -94,7 +94,7 @@
       "link": "https://rapidapi.com/auth/sign-up?referral=/mpeng/api/stock-and-options-trading-data-provider",
       "image": "https://media.npr.org/assets/img/2020/07/27/ap_17297646616057_wide-549f4790ca59c1acc6767e34c342b468cc3a5e6e.jpg",
       "category": "Finance",
-      "description": "An API for ___"
+      "description": "An API storing current and historical data on gold prices"
     }
   ]
 }

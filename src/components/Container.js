@@ -14,6 +14,7 @@ function Container({showApis, selectedCategory}) {
   
 
   return (
+    <h1>"why doesnt this work"</h1>,
     <ul className="grid-container">
       {filtered ? filtered : displayAll}
       </ul>

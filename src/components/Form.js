@@ -29,27 +29,38 @@ function Form({onAddApi}) {
   }
 
   return (
-    <form className="" onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit}>
       <input 
+      className="name" 
       placeholder="Name" 
       onChange={(e)=>setName(e.target.value)}/>
       <input 
+      className="link"
       placeholder="Link" 
       onChange={(e)=>setLink(e.target.value)}/>
       <input 
+      className="image"
       placeholder="Image" 
       onChange={(e)=>setImage(e.target.value)} />
+
+     <select className="category" onChange={(e)=>setCategory(e.target.value)}>
+        <option value="PRESET">Select Category</option>
+        <option value="Arts and Culture">Arts and Culture</option>
+        <option value="Sports">Sports</option>
+        <option value="Travel">Travel</option>
+        <option value="Finance">Finance</option>
+    </select>
       <input 
-      placeholder="Category" 
-      onChange={(e)=>setCategory(e.target.value)} />
-      <input 
+      className="description"
       placeholder="Write a brief description"
       onChange={(e)=>setDescription(e.target.value)} />
       <input 
+      className="submit"
       type="submit" 
       value="Submit Api" />
     </form>
   );
 }
 
-export default Form;
+
+export default Form; 
