@@ -17,25 +17,28 @@ function App(){
          .then((r) => r.json())
          .then((showApis) => setShowApis(showApis))
 
-     }, []);
+     }, [selectedCategory]);
 
 
 
     function cardsToDisplay(specific){
-        const cardsToDisplay = showApis.filter((show) => (show.category === specific))
-        return setSelectedCategory(cardsToDisplay);
+        if (specific === ""){
+            return setSelectedCategory(showApis)
+        }
+        const cards = showApis.filter((show) => (show.category === specific))
+        return setSelectedCategory(cards);
     }
   
    return (
         <div className='App'>
             <Header 
-            cardsToDisplay={cardsToDisplay} selectedCategory={selectedCategory}/>
+            cardsToDisplay={cardsToDisplay}/>
             <Switch>
                 <Route exact path="/">
-                    <Home />
+                    <Home cardsToDisplay={cardsToDisplay}/>
                 </Route>
                 <Route exact path="/All" >
-                    <Container showApis={showApis}/>
+                    <Container showApis={showApis} selectedCategory={selectedCategory}/>
                 </Route>
                 <Route exact path="/form"> 
                     <Form/>
